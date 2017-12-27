@@ -8,6 +8,10 @@
 		{
 			"name": "Example project",
 			"path": "example\\src"
+		},
+		{
+			"name": "Repository",
+			"path": "."
 		}
 	]
 }

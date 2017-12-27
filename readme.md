@@ -1,4 +1,3 @@
-[![Master](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=master)](https://travis-ci.org/AndreasFurster/vuetify-form-generator)
 [![Production](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=production)](https://travis-ci.org/AndreasFurster/vuetify-form-generator)
 
 # Disclaimer
