@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"v-form",
+				"v-form-generator-field"
+			],
+			[
+				"schem",
+				"schemaItem"
+			],
+			[
+				"sch",
+				"schemaItem"
+			],
+			[
+				"medewe",
+				"medewerkers"
+			],
+			[
+				"first",
+				"firstNameRules"
+			],
+			[
+				"crud",
+				"crud-options"
+			],
+			[
+				"selecte",
+				"selectedItem"
+			],
+			[
+				"selec",
+				"selectedOpdracht"
+			],
+			[
+				"delete",
+				"DeleteUser"
+			],
+			[
+				"Make",
+				"MakeRequest"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"kac",
+				"Kachel"
+			],
+			[
+				"kachel",
+				"kachels"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"n",
+				"npm: Run Script"
+			],
+			[
+				"npm r",
+				"npm: Run Script"
+			],
+			[
+				"npm run",
+				"npm: Run Script"
+			],
+			[
+				"npm run ",
+				"npm: Run Script"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"materia",
+				"Material Theme: Configuration"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"emmet",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"act",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 358.0,
+		"history":
+		[
+			"hapllglgl",
+			"help",
+			".",
+			"(sublime.Window(2)).open_file('load folder')",
+			"(sublime.Window(2)).open('load folder')",
+			"(sublime.Window(2)).extract_variables()",
+			"(sublime.Window(2)).folders()",
+			"(sublime.Window(1)).folders()",
+			"(sublime.Window()).folders()",
+			"(new sublime.Window()).folders()",
+			"sublime.Window.folders(sublime.Window())",
+			"sublime.Window.folders()",
+			"sublime.Window.folders(self)",
+			"sublime.Window.folders(sublime.Window)",
+			"sublime.Window.folders(this)",
+			"sublime.Window.folders(sublime.Window)",
+			"sublime.Window.folders('')",
+			"sublime.Window.folders()",
+			"sublime.Window.folders)_",
+			"sublime.Window",
+			"folders()",
+			"folders)_",
+			"folder()",
+			"folder"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/App.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/src/form-generator.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/readme.md",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/package.json",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/package.json",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/main.js",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/project.sublime-project",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/pages/dashboard.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/App.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/crud-data-table.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/modules/api-communicator.js",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/pages/Opdrachten.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/pages/BewerkMedewerker.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/pages/Medewerkers.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/main.js",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/pages/NieuweMedewerker",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/api-communicator.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/package.json",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/router/index.js",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/duijster-app.sublime-project",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/Test.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/Dashboard.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/Testerino.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/Photo.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/README.md",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/HelloWorld.vue",
+		"/C/Users/Andreas Furster/Documents/sources/duijster-app/index.html",
+		"/C/Users/Andreas Furster/Documents/Temp/artoffire/pimcore/load folder",
+		"/C/Users/Andreas Furster/Documents/Temp/artoffire/index.php",
+		"/C/Users/Andreas Furster/Documents/Temp/artoffire/load folder",
+		"/C/Users/Andreas Furster/Documents/Temp/artoffire/sftp-config.json",
+		"/C/Users/Andreas Furster/AppData/Roaming/Sublime Text 3/Packages/SFTP/sftp/commands.pyc",
+		"/C/users/andrea~1/appdata/local/temp/sublime-sftp-browse-1512056472/artoffire/home/artoffire/public_html/index.php",
+		"/C/users/andrea~1/appdata/local/temp/sublime-sftp-browse-1512056502/artoffire/home/artoffire/public_html/website/views/scripts/content/brand-detail.php",
+		"/C/Users/Andreas Furster/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/artoffire",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/ContentController.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/custom.js",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/layout.css",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/default.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/multiple-select.min.css",
+		"/C/Users/Andreas Furster/custom.js",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/home.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/Temp1_pimcore-stable.zip/composer.json",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/Temp1_pimcore-stable.zip/LICENSE.md",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/header.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/footer.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/system.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/debug.log",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/reset-sessions.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/Temp1_pimcore-stable.zip/README.md",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/detail.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/default.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-3/nieuws.php",
+		"/C/Users/Andreas Furster/Documents/debug.log",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/detail.php",
+		"/C/Users/Andreas Furster/AppData/Local/Temp/fz3temp-2/staticdetail.php"
+	],
+	"find":
+	{
+		"height": 60.0
+	},
+	"find_in_files":
+	{
+		"height": 185.0,
+		"where_history":
+		[
+			"C:\\Users\\Andreas Furster\\Documents\\sources\\duijster-app\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this.$emit",
+			"c",
+			"input",
+			"  ",
+			"table-fields",
+			"crud",
+			"test",
+			"selectedOpdracht",
+			"Medewerkers",
+			"volgnr",
+			"false",
+			"'\n",
+			"},\n",
+			"=\"\">",
+			"op re",
+			"$avond",
+			"keuzeprogramma",
+			"masterSlider",
+			"social-media-icons",
+			"Prevented access to /admin because there is no user in the session"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 60.0
+	},
+	"input":
+	{
+		"height": 127.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 270.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 112.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 565.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

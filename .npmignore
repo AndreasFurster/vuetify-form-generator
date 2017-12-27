@@ -1,0 +1,6 @@
+# Ignore the example project for building a npm package
+example
+
+# Ignore sublime dev files
+project.sublime-project
+project.sublime-workspace

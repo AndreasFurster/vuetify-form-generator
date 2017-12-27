@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"name": "Form Generator",
+			"path": "src"
+		},
+		{
+			"name": "Example project",
+			"path": "example\\src"
+		}
+	]
+}
