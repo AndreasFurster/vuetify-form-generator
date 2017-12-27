@@ -1,7 +1,6 @@
 language: node_js
 node_js:
   - "node"
-  - "iojs"
 deploy:
   provider: npm
   email: andreas.furster@hotmail.com
