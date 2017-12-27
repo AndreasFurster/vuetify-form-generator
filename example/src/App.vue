@@ -31,8 +31,7 @@
 <script>
 	export default {
 		components: {
-			'v-form-generator': require('vuetify-form-generator').default,
-			'vtest': require('./test.vue').default
+			'v-form-generator': require('vuetify-form-generator').default
 		},
 		data(){
 			return {
@@ -89,45 +88,51 @@
 						model: "status",
 						default: true
 					}],
-					groups: [
-						{
-							legend: "User Details",
-							fields: [
-								{
-									type: "textarea",
-									label: "My story",
-									model: "story"
-								},
-								{
-									type: "email",
-									id: "email",
-									label: "Email Address",
-									model: "email"
-								}
-							]
-						},
-						{
-							legend: "Preferences",
-							fields: [
-								{
-									type: "select",
-									label: "Color",
-									model: "color",
-									values: [
-										"Red",
-										"Green",
-										"Blue"
-									]
-								},
-								{
-									type: "number",
-									id: "timeout",
-									label: "Timeout in Seconds",
-									model: "timeout"
-								}
-							]
-						}
-					]
+					groupedFields: {
+						name: "Advanced",
+						display: "tabs",
+						groups: [
+							{
+								key: "userDetails",
+								legend: "User Details",
+								fields: [
+									{
+										type: "textarea",
+										label: "My story",
+										model: "story"
+									},
+									{
+										type: "email",
+										id: "email",
+										label: "Email Address",
+										model: "email"
+									}
+								]
+							},
+							{
+								key: "preferences",
+								legend: "Preferences",
+								fields: [
+									{
+										type: "select",
+										label: "Color",
+										model: "color",
+										values: [
+											"Red",
+											"Green",
+											"Blue"
+										]
+									},
+									{
+										type: "number",
+										id: "timeout",
+										label: "Timeout in Seconds",
+										model: "timeout"
+									}
+								]
+							}
+						]
+					}
 				},
 				options: {
 
