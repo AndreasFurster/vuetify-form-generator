@@ -1,0 +1,7 @@
+deploy:
+  provider: npm
+  email: "andreas.furster@hotmail.com"
+  api_key: "e482d46e-c9b5-4ed8-8fba-457fa1cfcc6c"
+  on:
+    tags: true
+    branch: production
