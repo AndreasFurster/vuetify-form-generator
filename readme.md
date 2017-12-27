@@ -1,7 +1,11 @@
-[![Production](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=production)](https://travis-ci.org/AndreasFurster/vuetify-form-generator)
-
 # Disclaimer
 *This component is in the early stage of development and is in no way ready for production use!* 
+
+# Build status
+
+| Production | Master | Development |
+| ------------- | ------------- | ------------- |
+| [![Build Status](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=production)](https://travis-ci.org/AndreasFurster/vuetify-form-generator) | [![Build Status](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=master)](https://travis-ci.org/AndreasFurster/vuetify-form-generator) | [![Build Status](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=develop)](https://travis-ci.org/AndreasFurster/vuetify-form-generator) |
 
 # Usage
 `npm install vuetify-form-generator`

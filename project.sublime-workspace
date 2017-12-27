@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"scha",
+				"schemaItem"
+			],
+			[
 				"v-form",
 				"v-form-generator-field"
 			],
@@ -68,17 +72,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "js",
+		"height": 708.0,
+		"last_filter": "spaces",
 		"selected_items":
 		[
 			[
-				"js",
-				"Set Syntax: JavaScript"
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
 			],
 			[
 				"vue",
 				"Set Syntax: Vue Component"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"n",
@@ -107,14 +135,6 @@
 			[
 				"twig",
 				"Set Syntax: HTML (Twig)"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"word",
-				"Word Wrap: Toggle"
 			],
 			[
 				"package ",
@@ -165,7 +185,7 @@
 				"Material Theme: Activate theme"
 			]
 		],
-		"width": 496.0
+		"width": 992.0
 	},
 	"console":
 	{
@@ -209,14 +229,20 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/.travis.yml",
-		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/App.vue",
 		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/src/form-generator.vue",
-		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/readme.md",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/App.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/src/form-field.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/src/groupedFieldsComponents/tabs-display.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/src/groupComponents/tabs-display.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/test.vue",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/test.js",
 		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/package.json",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/readme.md",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/.travis.yml",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/index.html",
+		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/project.sublime-project",
 		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/package.json",
 		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/example/src/main.js",
-		"/C/Users/Andreas Furster/Documents/sources/vuetify-form-generator/project.sublime-project",
 		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/pages/dashboard.vue",
 		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/App.vue",
 		"/C/Users/Andreas Furster/Documents/sources/duijster-app/src/components/crud-data-table.vue",
@@ -269,11 +295,11 @@
 	],
 	"find":
 	{
-		"height": 60.0
+		"height": 77.0
 	},
 	"find_in_files":
 	{
-		"height": 185.0,
+		"height": 215.0,
 		"where_history":
 		[
 			"C:\\Users\\Andreas Furster\\Documents\\sources\\duijster-app\\src"
@@ -321,11 +347,11 @@
 	},
 	"incremental_find":
 	{
-		"height": 60.0
+		"height": 77.0
 	},
 	"input":
 	{
-		"height": 127.0
+		"height": 153.0
 	},
 	"layout":
 	{
@@ -361,7 +387,7 @@
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 112.0
+		"height": 146.0
 	},
 	"save_all_on_build": true,
 	"select_file":
