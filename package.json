@@ -1,6 +1,6 @@
 {
   "name": "vuetify-form-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A form generator for Vuetify",
   "main": "src/form-generator.vue",
   "scripts": {
