@@ -1,8 +1,13 @@
 language: node_js
+  node_js:
+    - iojs
+    - '7'
 deploy:
   provider: npm
-  email: "andreas.furster@hotmail.com"
-  api_key: "e482d46e-c9b5-4ed8-8fba-457fa1cfcc6c"
+  email: andreas.furster@hotmail.com
+  api_key:
+    secure: nKpxF2H5waxuHCUskRohEctnUhkzOLOkeO84D/2jd1eIqJW6U6d/r/W69mwsOEOjIGtJbShUxtMf44zbkGhg+S8NXMyzC+InfExQNg4czugbDn9p7Ez+u2RVdsVSnF21F3z7P8NiEhyJ27vfeWo9lMpIEFO5kpopWoIqQxVCufJ4Jg7dTNSWhXFYTuNbab6HGP2qzzxRiJrJQsYTlPSGxqvdf5BJOo89L9Jf3oS3lxHjTvl4ANIBvEkOHZJYooHfN1Xq6PyxdcIZkKeN768ErgfiO+wb2i3Dc/xiX5g9X7ve2avLSkQeuPBa8KnNOwWNuuOTbtYdoHSA4vPa8B9s9tvxy09bPnAzVfJf0yYugg2jEODQlCmtCqNduzomd8QE1IKaqyouQCIsC8qcYsAREuOiu4tyhKk0yMmy7fjI8Qh0qGbzeHVPBQPulg18cIpdT6apTAkpcNh1Ls2Ejr4WgpvTww5Hr2Rrb0/Hc7gjdS1BPk1OuzpVQJFwZCCWcqsLW09nteDNXSwNU90uYoEOlSskan/ZZ2EYjdQiJsbtMAvl5bRK8AkDnNxUZWgQ5koCpC0d1LyulMgj1JCE2utkZeh+KoSA7zgZB7i4BN9RlaNTV0E2kXB4qXfnlJBRFTh+vFEXXM6z1Tp2E2A8L4U2XUWeMfNI8uMI8DF1BKLsEY4=
   on:
     tags: true
+    repo: AndreasFurster/vuetify-form-generator
     branch: production
