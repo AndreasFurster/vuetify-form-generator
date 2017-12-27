@@ -88,51 +88,47 @@
 						model: "status",
 						default: true
 					}],
-					groupedFields: {
-						name: "Advanced",
-						display: "tabs",
-						groups: [
-							{
-								key: "userDetails",
-								legend: "User Details",
-								fields: [
-									{
-										type: "textarea",
-										label: "My story",
-										model: "story"
-									},
-									{
-										type: "email",
-										id: "email",
-										label: "Email Address",
-										model: "email"
-									}
-								]
-							},
-							{
-								key: "preferences",
-								legend: "Preferences",
-								fields: [
-									{
-										type: "select",
-										label: "Color",
-										model: "color",
-										values: [
-											"Red",
-											"Green",
-											"Blue"
-										]
-									},
-									{
-										type: "number",
-										id: "timeout",
-										label: "Timeout in Seconds",
-										model: "timeout"
-									}
-								]
-							}
-						]
-					}
+					groups: [
+						{
+							key: "userDetails",
+							legend: "User Details",
+							fields: [
+								{
+									type: "textarea",
+									label: "My story",
+									model: "story"
+								},
+								{
+									type: "email",
+									id: "email",
+									label: "Email Address",
+									model: "email"
+								}
+							]
+						},
+						{
+							key: "preferences",
+							legend: "Preferences",
+							fields: [
+								{
+									type: "select",
+									label: "Color",
+									model: "color",
+									values: [
+										"Red",
+										"Green",
+										"Blue"
+									]
+								},
+								{
+									type: "number",
+									id: "timeout",
+									label: "Timeout in Seconds",
+									model: "timeout"
+								}
+							]
+						}
+					]
 				},
 				options: {
 

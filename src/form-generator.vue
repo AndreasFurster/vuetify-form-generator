@@ -1,8 +1,7 @@
 <template>
     <div>
         <div v-for="(schemaItem, schemaItemIndex) in schema">
-            <div v-if="schemaItemIndex == 'groupedFields'">
-                <div v-if="schemaItem."></div>
+            <div v-if="schemaItemIndex == 'groups'">
                 <v-tabs>
                     <v-tabs-bar class="cyan" dark>
                         <v-tabs-item
