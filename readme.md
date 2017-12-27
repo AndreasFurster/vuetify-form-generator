@@ -1,3 +1,6 @@
+[![Master](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=master)](https://travis-ci.org/AndreasFurster/vuetify-form-generator)
+[![Production](https://travis-ci.org/AndreasFurster/vuetify-form-generator.svg?branch=production)](https://travis-ci.org/AndreasFurster/vuetify-form-generator)
+
 # Disclaimer
 *This component is in the early stage of development and is in no way ready for production use!* 
 
