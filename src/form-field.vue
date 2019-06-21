@@ -51,6 +51,23 @@
         ></v-select>
 		</div>
 
+		<div v-else-if="field.type == 'radio'">
+			<v-container fluid>
+				<p>{{ field.label }}</p>
+				<v-radio-group v-model="localValue">
+					<v-radio
+						v-for="n in field.values"
+						:key="n.value"
+						:label="n.label"
+						:value="n.value"
+						:disabled="field.disabled"
+						:readonly="field.readonly"
+						@change="onChange"
+					></v-radio>
+				</v-radio-group>
+			</v-container>
+		</div>
+
 
 		<div v-else-if="field.type == 'checkbox'">
 		    <v-checkbox

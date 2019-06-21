@@ -49,7 +49,8 @@
 					skills: ["Javascript", "VueJS"],
 					email: "john.doe@gmail.com",
 					status: true,
-					usePassword: true
+					usePassword: true,
+					skillsRadio: null
 				},
 				schema: {
 					fields: [{
@@ -85,6 +86,25 @@
 						model: "skills",
 						values: ["Javascript", "VueJS", "CSS3", "HTML5"]
 					},{
+						type: "radio",
+						label: "Select a skill",
+						model: "skillsRadio",
+						values: [
+							{
+								"label": "Javascripts",
+								"value": "1"
+							},
+							{
+								"label": "VueJS",
+								"value": "2"
+							},
+							{
+								"label": "CSS3",
+								"value": "3"
+							}
+						]
+					},
+					{
 						type: "email",
 						label: "E-mail",
 						model: "email",
