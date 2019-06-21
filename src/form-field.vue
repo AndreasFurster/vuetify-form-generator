@@ -51,11 +51,12 @@
 
 		<div v-else-if="field.type == 'checkbox'">
 		    <v-checkbox
-              v-model="localValue"
-              :label="field.label"
-		      :required="field.required"
-		      :disabled="field.disabled"
-            ></v-checkbox>
+					v-model="localValue"
+					:label="field.label"
+					:required="field.required"
+					:disabled="field.disabled"
+					@change="onChange"
+				></v-checkbox>
 		</div>
 
 		<div v-else-if="field.type == 'textarea'">
