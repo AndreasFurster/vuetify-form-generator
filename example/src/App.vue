@@ -11,7 +11,14 @@
 				</v-tabs-bar>
 				<v-tabs-items class="ma-5">
 					<v-tabs-content :id="'form'">
-						<v-form-generator :model="model" :schema="schema" :options="options"/>
+						<v-form-generator 
+							:model="model" 
+							:schema="schema" 
+							:options="options"
+							@blur="onBlur"
+							@change="onChange"
+							@focus="onFocus"
+							@input="onInput"/>
 					</v-tabs-content>
 					<v-tabs-content :id="'model'">
 						<pre>{{model}}</pre>
@@ -135,5 +142,21 @@
 				}
 			}
 		},
+		methods: {
+			onBlur: function(){
+				console.info('blur')
+			},
+			onChange: function(evt){
+				console.info('change')
+				this.model[evt.model] = evt.value
+			},
+			onFocus: function(){
+				console.info('focus')
+			},
+			onInput: function(evt){
+				console.info('input')
+				this.model[evt.model] = evt.value
+			}
+		}
 	}
 </script>
