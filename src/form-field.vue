@@ -42,6 +42,9 @@
 					:required="field.required"
 					:readonly="field.readonly"
 					:disabled="field.disabled"
+					:placeholder="field.placeholder"
+					:clearable="field.clearable"
+					:multiple="field.multiple"
 					single-line
 					bottom
 					@change="onChange"
