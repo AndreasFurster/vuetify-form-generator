@@ -128,14 +128,14 @@
 			onBlur: function(){
 				this.$emit('blur')
 			},
-			onChange: function(){
-				this.$emit('change')
+			onChange: function(evt){
+				this.$emit('change', { model: this.field.model, value: evt })
 			},
 			onFocus: function(){
 				this.$emit('focus')
 			},
-			onInput: function(){
-				this.$emit('input')
+			onInput: function(evt){
+				this.$emit('input', { model: this.field.model, value: evt })
 			},
 			
 			appendPasswordIconCheckbox(){
