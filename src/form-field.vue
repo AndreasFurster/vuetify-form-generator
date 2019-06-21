@@ -36,16 +36,16 @@
 
 		<div v-else-if="field.type == 'select'">
 		    <v-select
-              v-model="localValue"
-              :items="field.values"
-              :label="field.label"
-		      :required="field.required"
-		      :readonly="field.readonly"
-		      :disabled="field.disabled"
-              single-line
-              bottom
-
-            ></v-select>
+					v-model="localValue"
+					:items="field.values"
+					:label="field.label"
+					:required="field.required"
+					:readonly="field.readonly"
+					:disabled="field.disabled"
+					single-line
+					bottom
+					@change="onChange"
+        ></v-select>
 		</div>
 
 
