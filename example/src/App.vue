@@ -59,7 +59,15 @@
 						label: "ID (disabled text field)",
 						model: "id",
 						readonly: true, 
-						disabled: true
+						disabled: true,
+						visible: true
+					},{
+						type: "number",
+						label: "Hidden Field",
+						model: "idHidden",
+						readonly: true, 
+						disabled: true,
+						visible: false
 					},{
 						type: "text",
 						label: "Name",
