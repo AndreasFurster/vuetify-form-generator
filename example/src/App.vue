@@ -11,7 +11,14 @@
 				</v-tabs-bar>
 				<v-tabs-items class="ma-5">
 					<v-tabs-content :id="'form'">
-						<v-form-generator :model="model" :schema="schema" :options="options"/>
+						<v-form-generator 
+							:model="model" 
+							:schema="schema" 
+							:options="options"
+							@blur="onBlur"
+							@change="onChange"
+							@focus="onFocus"
+							@input="onInput"/>
 					</v-tabs-content>
 					<v-tabs-content :id="'model'">
 						<pre>{{model}}</pre>
@@ -42,7 +49,10 @@
 					skills: ["Javascript", "VueJS"],
 					email: "john.doe@gmail.com",
 					status: true,
-					usePassword: true
+					usePassword: true,
+					showHiddenField: true,
+					skillsRadio: null,
+					switch: false
 				},
 				schema: {
 					fields: [{
@@ -50,7 +60,15 @@
 						label: "ID (disabled text field)",
 						model: "id",
 						readonly: true, 
-						disabled: true
+						disabled: true,
+						visible: true
+					},{
+						type: "number",
+						label: "Hidden Field",
+						model: "idHidden",
+						readonly: true, 
+						disabled: true,
+						visible: false
 					},{
 						type: "text",
 						label: "Name",
@@ -78,6 +96,30 @@
 						model: "skills",
 						values: ["Javascript", "VueJS", "CSS3", "HTML5"]
 					},{
+						type: "radio",
+						label: "Select a skill",
+						model: "skillsRadio",
+						values: [
+							{
+								"label": "Javascripts",
+								"value": "1"
+							},
+							{
+								"label": "VueJS",
+								"value": "2"
+							},
+							{
+								"label": "CSS3",
+								"value": "3"
+							}
+						]
+					},
+					{
+						type: "switch",
+						label: "Switch ON/OFF",
+						model: "switch"
+					},
+					{
 						type: "email",
 						label: "E-mail",
 						model: "email",
@@ -87,6 +129,16 @@
 						label: "Status",
 						model: "status",
 						default: true
+					},{
+						type: "checkbox",
+						label: "Show next field?",
+						model: "showHiddenField"
+					},{
+						type: "text",
+						label: "Hidden Field",
+						model: "conditionlHiddenField",
+						placeholder: "Some text",
+						visible: (model, field) => model.showHiddenField === true,
 					}],
 					groups: [
 						{
@@ -135,5 +187,21 @@
 				}
 			}
 		},
+		methods: {
+			onBlur: function(){
+				console.info('blur')
+			},
+			onChange: function(evt){
+				console.info('change')
+				this.model[evt.model] = evt.value
+			},
+			onFocus: function(){
+				console.info('focus')
+			},
+			onInput: function(evt){
+				console.info('input')
+				this.model[evt.model] = evt.value
+			}
+		}
 	}
 </script>

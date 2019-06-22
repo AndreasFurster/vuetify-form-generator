@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/AndreasFurster/vuetify-form-generator#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "vue": "^2.5.3",
     "vuetify": "^0.17.4"
   },

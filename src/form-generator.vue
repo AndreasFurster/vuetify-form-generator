@@ -23,6 +23,7 @@
                                 <v-form-generator-field 
                                     :field="field" 
                                     :value="model[field.model]"
+                                    :model="localModel"
                                     @blur="onBlur"
                                     @change="onChange"
                                     @focus="onFocus"
@@ -36,7 +37,15 @@
             </div>
             <div v-if="schemaItemIndex == 'fields'">
                 <div v-for="field in schemaItem">
-                    <v-form-generator-field :field="field" :value="model[field.model]"></v-form-generator-field>
+                    <v-form-generator-field 
+                        :field="field" 
+                        :value="model[field.model]"
+                        :model="localModel"
+                        @blur="onBlur"
+                        @change="onChange"
+                        @focus="onFocus"
+                        @input="onInput">
+                    </v-form-generator-field>
                 </div>
             </div>
         </div>
@@ -56,24 +65,33 @@
         },
         data(){
             return {
-                
+                localModel: this.model
             }
         },
         created: function () {
             // On load
         },
         methods: {
+            updateModel: function(name, value){
+                this.localModel[name] = value
+            },
             onBlur: function(){
                 console.info('blur')
+                this.$emit('blur')
             },
-            onChange: function(){
+            onChange: function(evt){
                 console.info('change')
+                this.updateModel(evt.model, evt.value)
+                this.$emit('change', evt)
             },
             onFocus: function(){
                 console.info('focus')
+                this.$emit('focus')
             },
-            onInput: function(){
-                console.info('input')
+            onInput: function(evt){
+                console.log('input')
+                this.updateModel(evt.model, evt.value)
+                this.$emit('input', evt)
             },
         }
     }
