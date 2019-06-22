@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div v-if="field.visible !== false">
+		<div v-if="fieldVisible(field)">
 			<div v-if="field.type == 'email'">
 				<v-text-field
 						v-model="localValue"
@@ -135,11 +135,13 @@
 </template>
 
 <script>
+	import { isFunction, isNil } from "lodash";
 	export default{
 		name: 'v-form-generator-field',
 		props: {
 			field: Object,
-			value: null
+			value: null,
+			model: Object
 		},
 		data(){
 			return {
@@ -173,6 +175,15 @@
 			
 			appendPasswordIconCheckbox(){
 				return () => this.field.passwordVisible = !this.field.passwordVisible
+			},
+
+			// Get visible prop of field
+			fieldVisible(field) {
+				if (isFunction(field.visible)) return field.visible.call(this, this.model, this.field)
+
+				if (isNil(field.visible)) return true;
+
+				return field.visible;
 			}
 		}
 	}

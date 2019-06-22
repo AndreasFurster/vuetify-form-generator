@@ -23,6 +23,7 @@
                                 <v-form-generator-field 
                                     :field="field" 
                                     :value="model[field.model]"
+                                    :model="localModel"
                                     @blur="onBlur"
                                     @change="onChange"
                                     @focus="onFocus"
@@ -38,7 +39,8 @@
                 <div v-for="field in schemaItem">
                     <v-form-generator-field 
                         :field="field" 
-                        :value="model[field.model]" 
+                        :value="model[field.model]"
+                        :model="localModel"
                         @blur="onBlur"
                         @change="onChange"
                         @focus="onFocus"
@@ -63,19 +65,23 @@
         },
         data(){
             return {
-                
+                localModel: this.model
             }
         },
         created: function () {
             // On load
         },
         methods: {
+            updateModel: function(name, value){
+                this.localModel[name] = value
+            },
             onBlur: function(){
                 console.info('blur')
                 this.$emit('blur')
             },
             onChange: function(evt){
                 console.info('change')
+                this.updateModel(evt.model, evt.value)
                 this.$emit('change', evt)
             },
             onFocus: function(){
@@ -84,6 +90,7 @@
             },
             onInput: function(evt){
                 console.log('input')
+                this.updateModel(evt.model, evt.value)
                 this.$emit('input', evt)
             },
         }

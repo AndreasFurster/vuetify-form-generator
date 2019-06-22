@@ -50,6 +50,7 @@
 					email: "john.doe@gmail.com",
 					status: true,
 					usePassword: true,
+					showHiddenField: true,
 					skillsRadio: null,
 					switch: false
 				},
@@ -128,6 +129,16 @@
 						label: "Status",
 						model: "status",
 						default: true
+					},{
+						type: "checkbox",
+						label: "Show next field?",
+						model: "showHiddenField"
+					},{
+						type: "text",
+						label: "Hidden Field",
+						model: "conditionlHiddenField",
+						placeholder: "Some text",
+						visible: (model, field) => model.showHiddenField === true,
 					}],
 					groups: [
 						{
