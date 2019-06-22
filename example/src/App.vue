@@ -50,7 +50,8 @@
 					email: "john.doe@gmail.com",
 					status: true,
 					usePassword: true,
-					skillsRadio: null
+					skillsRadio: null,
+					switch: false
 				},
 				schema: {
 					fields: [{
@@ -103,6 +104,11 @@
 								"value": "3"
 							}
 						]
+					},
+					{
+						type: "switch",
+						label: "Switch ON/OFF",
+						model: "switch"
 					},
 					{
 						type: "email",

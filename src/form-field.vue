@@ -68,6 +68,16 @@
 			</v-container>
 		</div>
 
+		<div v-else-if="field.type == 'switch'">
+			<v-switch v-model="localValue"
+				:label="field.label"
+				:value="field.value"
+				:disabled="field.disabled"
+				:readonly="field.readonly"
+				@change="onChange"
+			></v-switch>
+		</div>
+
 
 		<div v-else-if="field.type == 'checkbox'">
 		    <v-checkbox
